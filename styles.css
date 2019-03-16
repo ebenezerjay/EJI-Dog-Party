@@ -19,24 +19,38 @@ header {
 }
 
 ul {
-  list-style: none;
   float: right;
   margin-top: 20px;
   padding: 5px;
-  width: 40%;
+  width: 55%;
 }
 
 li {
+  float: right;
   color: black;
   font-size: 18px;
   font-weight: 600;
   display: inline-block;
-  width: 30%;
+  padding-right: 5px;
+  width: 24%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: #048eaa;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 55%;
 }
 
 main {
   width: 100%;
 }
+
 section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lh3.googleusercontent.com/vdRjh9sPCq53CNwab5zOUkXr1BB9j8drpLYqdAFYJcEXvnS9s9KvqVJYDN_4B3G2Hq38Igl9Be7cNa8rKFA2-lmA4FYZQcwnb7v3tEFMMOzxXVKACm9VW92XgU7Pc6HGi8JGrXqsZ4L9pAkRU3eAn5Moicj6DNsUdy3nGxYEpvmtQ-tZwF72-6mDaPvyn7qIeWYV32qbyFU5BMP3JlWVvQxOmdJLfyKczzIYEik7kP63KpQytgIyFXCu7Y8nXsdF4PwulbNPONYVrMfAaTjxQcZSu0CQKsdc11ne1BSx8Su8k7WNcsVg0cbtDuFDWGq42W4HMwtS3lu_RWDLnJ2C6RaQ26E29PFOQdFbCL6L0SmH3Qnj71t1rUARgAboyBD0FXnVqmg68hKHw6AHf2GNeZUp7IAfb4kIsnjljwJsV0wn1MpkC9tsQiyOTlgv2GzULUsay5rl6JiXhmJ8g2CFeMK1mfbMVaRuvkatOnzNJwIgvkizVlcMJT_2CM9B0aZuXSz6D04tiir5KdUk-VIlu42u86KsZ-tNbnjjqpT_UpbgcuGy-TcOhkAr8f2lMkJukzl4uHSquyvKst6qTaaAytj0XBA=w2722-h1374');
   background-repeat: no-repeat;
@@ -48,7 +62,7 @@ section {
 }
 
 h1 {
-  margin: 0px 0px 0px 32%;
+  margin: 0px auto 0px auto;
   width: 38%;
   padding: 40px 0px 30px 0px;
   height: 25px;
@@ -60,6 +74,14 @@ h2 {
   text-align: center;
   width: 70%;
 }
+
+h3 {
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 70px;
+  word-spacing: 1;
+}
+
 input {
   font-size: 20px;
   height: 50px;
@@ -83,24 +105,34 @@ p {
   width: 87%;
 }
 
+footer {
+  display: inline-block;
+  background-color: #048eaa;
+  height: 250px;
+  margin-top: 55px;
+  text-align: center;
+  width: 100%;
+}
 
 .name-dog-button {
   background-color: #75e2e6;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   height: 45px;
   width: 35%;
   margin: 25px 0px 0px 32%;
 }
 
 .dog1 {
-  margin: 40px 0px 0px 40%;
+  margin: 40px 0px 0px 41%;
+  border-radius: 50%;
+  border: solid 4px #048eaa;
 }
 
-.dog1,
 .dog2,
 .dog3,
 .dog4 {
+  margin-left: 30px;
   border-radius: 50%;
   border: solid 4px #048eaa;
 }
@@ -141,7 +173,12 @@ p {
   margin-top: 44px;
 }
 
-
+.twitter-img,
+.instagram-img,
+.fb-image,
+.lnk-img {
+  padding-right: 15px;
+}
 
 /*h1 {
   color: #ffffff;
