@@ -1,5 +1,149 @@
+* {
+  font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+h1, 
+label,
+li,
+.col-buttons {
+  color: #fff;
+}
+
+header {
+  background-color: #75e2e6;
+  width: 100%;
+  height: 85px;
+  margin-top: 0px;
+  border-bottom: 3px solid #048eaa;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+  padding: 5px;
+  width: 40%;
+}
+
+li {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  width: 30%;
+}
+
+main {
+  width: 100%;
+}
+section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lh3.googleusercontent.com/vdRjh9sPCq53CNwab5zOUkXr1BB9j8drpLYqdAFYJcEXvnS9s9KvqVJYDN_4B3G2Hq38Igl9Be7cNa8rKFA2-lmA4FYZQcwnb7v3tEFMMOzxXVKACm9VW92XgU7Pc6HGi8JGrXqsZ4L9pAkRU3eAn5Moicj6DNsUdy3nGxYEpvmtQ-tZwF72-6mDaPvyn7qIeWYV32qbyFU5BMP3JlWVvQxOmdJLfyKczzIYEik7kP63KpQytgIyFXCu7Y8nXsdF4PwulbNPONYVrMfAaTjxQcZSu0CQKsdc11ne1BSx8Su8k7WNcsVg0cbtDuFDWGq42W4HMwtS3lu_RWDLnJ2C6RaQ26E29PFOQdFbCL6L0SmH3Qnj71t1rUARgAboyBD0FXnVqmg68hKHw6AHf2GNeZUp7IAfb4kIsnjljwJsV0wn1MpkC9tsQiyOTlgv2GzULUsay5rl6JiXhmJ8g2CFeMK1mfbMVaRuvkatOnzNJwIgvkizVlcMJT_2CM9B0aZuXSz6D04tiir5KdUk-VIlu42u86KsZ-tNbnjjqpT_UpbgcuGy-TcOhkAr8f2lMkJukzl4uHSquyvKst6qTaaAytj0XBA=w2722-h1374');
+  background-repeat: no-repeat;
+  background-size: 100% 489px;
+  height: 550px;
+  margin: auto;
+  width: 100%;
+  z-index: 0;
+}
 
 h1 {
+  margin: 0px 0px 0px 32%;
+  width: 38%;
+  padding: 40px 0px 30px 0px;
+  height: 25px;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+  width: 70%;
+}
+input {
+  font-size: 20px;
+  height: 50px;
+  margin:10px 0px 0px 32%;
+  padding: 0px;
+  text-align: center;
+  width: 35%;
+}
+
+label {
+  margin-left: 32%;
+}
+
+article {
+  width: 100%
+}
+
+p {
+  color: #000000;
+  text-align: left;
+  width: 87%;
+}
+
+
+.name-dog-button {
+  background-color: #75e2e6;
+  font-size: 20px;
+  font-weight: 600;
+  height: 45px;
+  width: 35%;
+  margin: 25px 0px 0px 32%;
+}
+
+.dog1 {
+  margin: 40px 0px 0px 40%;
+}
+
+.dog1,
+.dog2,
+.dog3,
+.dog4 {
+  border-radius: 50%;
+  border: solid 4px #048eaa;
+}
+
+.icon-image {
+  padding: 7px 5px 10px 25px;
+}
+
+
+.col1,
+.col2,
+.col3 {
+  display: inline-block;
+  float: left;
+  margin: 25px 0px 0px 5%;
+  padding-left: 20px;
+  width: 28%;
+}
+
+.col-buttons {
+  background-color: #058eaa;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.how-button {
+  margin-top: 30px;
+}
+
+.what-button {
+  margin-top: 2px;
+}
+
+.facts-button {
+  margin-top: 44px;
+}
+
+
+
+/*h1 {
   color: #ffffff;
   font-family: 'Open Sans';
   font-size: 37px;
@@ -307,3 +451,4 @@ br {
   display: none;
 }
 }
+*/
