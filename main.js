@@ -10,6 +10,7 @@ var paragraph3Id = document.querySelector("#p3-id");
 var paragraph1Change = document.querySelector("#p1-id");
 var paragraph2Change = document.querySelector("#p2-id");
 var paragraph3Change = document.querySelector("#p3-id");
+var dogPartyMp3 = document.querySelector("#dog-party-mp3");
 
 
 dogNameButton.addEventListener("click", changeTitle);
@@ -20,6 +21,9 @@ factsButton.addEventListener("click", factsChangeDisplay);
 
 function changeTitle(e) {
 	dogNameTitle.innerText = `${dogNameInput.value}`;
+	if (dogNameInput.value === "Dog Party") {
+		playMp3();
+	}
 	e.preventDefault();
 }
 
@@ -50,15 +54,7 @@ function factsChangeDisplay(e) {
 	e.preventDefault();
 }
 
+function playMp3() { 
+  dogPartyMp3.play(); 
+}
 
-
-
-
-
-
-// Extension 3:
-//   - Add another input and textarea to the form that can update the text in each column.
-//     The input should either be a dropdown or radio/checkboxes to specify which
-//      column's text is being updated.
-
-//   
