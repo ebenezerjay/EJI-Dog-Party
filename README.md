@@ -1,12 +1,15 @@
-# Dog Party Website
-This project "Dog Party" was made using html, CSS, and Javascript. Media queries were used to make the site responsive to iPhone 6,7, and 8. The website is about dogs.
-## Purpose
-The purpose of this project was to have the designer replicate a pre-existing site. Without using FlexBox or CSS Grid, the designer modeled this sight based on an image of another site.
+# Dog Party
+### By Ebenezer Jay Ingalsbe
+## Intro
+This project was made using html, CSS, and Javascript. Media queries were used to make the site responsive down to 320px width. 
+## Learning goals
+The purpose of this project was to have the designer replicate a pre-existing site. Without using FlexBox or CSS Grid, the designer modeled this sight based on an image of another site. When the user enters a name into the text field and clicks the button, the title should change to "A site about (entered name)". 
+### Goals for the project (updated)
+1. Refactor css (70 lines refactored)
+2. Refactor html (minimize divs, 3 compared to 10+)
+3. Write javascript without using jQuery
+4. Use two or less media queries
 ## Screenshots
-![Normal size #1](https://ebenezerjaymusic.files.wordpress.com/2019/01/screen-shot-2019-01-27-at-10.17.44-pm.png)
-![Normal size #2](https://ebenezerjaymusic.files.wordpress.com/2019/01/screen-shot-2019-01-27-at-10.18.18-pm.png)
-![Normal size #3](https://ebenezerjaymusic.files.wordpress.com/2019/01/screen-shot-2019-01-27-at-10.18.33-pm.png)
-![iPhone 6,7,8 #1](https://ebenezerjaymusic.files.wordpress.com/2019/01/screen-shot-2019-01-27-at-10.25.12-pm.png)
-![iPhone 6, 7, 8 #2](https://ebenezerjaymusic.files.wordpress.com/2019/01/screen-shot-2019-01-27-at-10.25.30-pm.png)
-![iPhone 6, 7, 8 #3](https://ebenezerjaymusic.files.wordpress.com/2019/01/screen-shot-2019-01-27-at-10.25.44-pm.png)
-![iPhone 6, 7, 8 #3](https://ebenezerjaymusic.files.wordpress.com/2019/01/screen-shot-2019-01-27-at-10.26.06-pm.png)
+### Comp screenshots
+![Comp-Desktop1](images/comp-desktop-screenshot1.png)
+![Comp-Desktop2](images/comp-desktop-screenshot2.png)
