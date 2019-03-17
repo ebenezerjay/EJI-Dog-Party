@@ -11,5 +11,20 @@ The purpose of this project was to have the designer replicate a pre-existing si
 4. Use two or less media queries
 ## Screenshots
 ### Comp screenshots
+Comp desktop 1
 ![Comp-Desktop1](images/comp-desktop-screenshot1.png)
+Comp desktop 2
 ![Comp-Desktop2](images/comp-desktop-screenshot2.png)
+### Project screenshots
+Desktop 1
+![Project-Desktop1](images/project-desktop-screenshot1.png)
+Desktop 2
+![Project-Desktop2](images/project-desktop-screenshot2.png)
+Mobile 1
+![Project-mobile1](images/project-mobile-screenshot1.png)
+Mobile 2
+![Project-mobile2](images/project-mobile-screenshot2.png)
+Mobile 3
+![Project-mobile3](images/project-mobile-screenshot3.png)
+Mobile 4
+![Project-mobile4](images/project-mobile-screenshot4.png)
